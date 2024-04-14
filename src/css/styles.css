@@ -2832,6 +2832,33 @@ p {
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+  .master-format .container {
+    max-width: 100%;
+  }
+
+  .price-section .container {
+    max-width: 100%;
+  }
+
+  .master-format-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .master-format-list > .list-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 /* master-list */
 
 .master-list {
@@ -3077,6 +3104,29 @@ p {
   height: 435px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .bonuses-section .container {
+    max-width: 100%;
+  }
+
+  .bonuses-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bonuses-list .list-item {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .bonuses-list .bonus-category {
