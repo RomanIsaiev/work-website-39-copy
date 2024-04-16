@@ -2044,10 +2044,6 @@ p {
 
 /* faq-01 */
 
-.faq {
-  margin-bottom: 120px;
-}
-
 .isOpen .content {
   display: block;
 }
