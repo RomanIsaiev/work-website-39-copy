@@ -2984,13 +2984,67 @@ p {
   text-transform: uppercase;
 }
 
+/* old-price-container */
+
+.old-price-text {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 15px */
+  letter-spacing: -0.3px;
+
+  margin-bottom: 10px;
+}
+
+.line-thought-container {
+  position: relative;
+
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+
+  max-width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 20px;
+}
+
+.price-line-thought {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+
+  transform: translate(-50%) rotate(-7deg);
+
+  display: block;
+  height: 2px;
+  width: 80px;
+
+  background-color: red;
+}
+
+.old-price {
+  color: #fff;
+  text-align: center;
+  font-family: Benzin-Semibold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+}
+
 /* price */
 
 .price-for-you {
   color: #fff;
   text-align: center;
   font-family: 'Futura PT';
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 15px */
@@ -3052,6 +3106,27 @@ p {
   margin-right: auto;
 
   margin-bottom: 30px;
+}
+
+.income-text {
+  color: #ffffff;
+  text-align: center;
+  font-family: Benzin-Semibold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+}
+
+.master-format-list .list-item:nth-child(2) .income-text span {
+  color: #ffda78;
+}
+
+.master-format-list .list-item:nth-child(3) .income-text span {
+  color: #f641ab;
 }
 
 /* bonuses */
