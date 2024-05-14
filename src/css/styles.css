@@ -3310,6 +3310,202 @@ p {
   letter-spacing: -0.28px;
 }
 
+/* partnership */
+
+.partnership {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.partnership .wrapper {
+  border-radius: 20px;
+  border: 1px solid #ffd676;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(255, 221, 85, 0.5);
+
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px 20px;
+  background-image: url(../images/partnership/background-desktop-1x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .partnership .wrapper {
+    background-image: url(../images/partnership/background-desktop-2x.png);
+  }
+}
+
+.partnership .main-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partnership-title {
+  text-align: center;
+  font-family: Benzin-Semibold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 28.8px */
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    92deg,
+    #dfb039 8.51%,
+    #ffda78 54.63%,
+    #dfb039 97.36%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  max-width: 252px;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.partnership-title span {
+  font-size: 18px;
+}
+
+.partnership-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+
+  max-width: 238px;
+  width: 100%;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #c50082;
+
+  margin-bottom: 45px;
+}
+
+.partnership-subtitle span {
+  color: #ffd676;
+}
+
+.partnership-desc {
+  color: #fff;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.28px;
+
+  max-width: 238px;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.partnership-desc span {
+  color: #f641ab;
+}
+
+.partnership-btn {
+  display: block;
+  color: #171717;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 15px */
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+
+  padding: 15px;
+  max-width: 235px;
+  width: 100%;
+
+  border-radius: 7px;
+  background: linear-gradient(
+    92deg,
+    #dfb039 8.51%,
+    #ffda78 54.63%,
+    #dfb039 97.36%
+  );
+}
+
+.partnership-time {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+
+  max-width: 180px;
+  margin-bottom: 13px;
+}
+
+.scaling-text {
+  text-align: center;
+  font-family: Benzin-Semibold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 15.4px */
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    92deg,
+    #dfb039 8.51%,
+    #ffda78 54.63%,
+    #dfb039 97.36%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 181px;
+}
+
+.scale-x {
+  text-align: center;
+  font-family: Benzin-Semibold;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 44px */
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    92deg,
+    #dfb039 8.51%,
+    #ffda78 54.63%,
+    #dfb039 97.36%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .partnership {
+    display: none;
+  }
+}
+
 /* they-already */
 
 .they-already {
@@ -3360,13 +3556,6 @@ p {
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .they-already {
-      background-image: url(../images/background-decorations/personal/money-01-mobile-2x.png),
-        url(../images/background-decorations/header/money-01-mobile-2x.png),
-        url(../images/background-decorations/already/ellipse-01.svg),
-        url(../images/background-decorations/already/ellipse-02.svg);
-    }
-
     .they-already .container {
       background-image: url(../images/background-decorations/already/money-01-tablet-2x.png);
     }
