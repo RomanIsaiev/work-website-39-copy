@@ -2691,6 +2691,10 @@ p {
   border-radius: 3px;
   background: #eb309e;
 
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+
   margin-bottom: 20px;
 }
 
@@ -2698,7 +2702,7 @@ p {
   color: #171717;
   background: #fff;
 
-  width: 156px;
+  width: 220px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2707,7 +2711,7 @@ p {
   color: #171717;
   background: #ffd676;
 
-  width: 230px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
 }
