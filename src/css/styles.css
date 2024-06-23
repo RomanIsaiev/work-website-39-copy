@@ -242,7 +242,7 @@ p {
   letter-spacing: -0.36px;
   text-transform: uppercase;
 
-  max-width: 148px;
+  max-width: 168px;
   width: 100%;
 }
 
@@ -322,12 +322,12 @@ p {
     top: 299px;
     right: 60px;
 
-    max-width: 260px;
+    max-width: 290px;
   }
 
   .earn-text {
     font-size: 26px;
-    max-width: 215px;
+    max-width: 245px;
   }
 }
 
