@@ -1775,7 +1775,7 @@ p {
 .steps-price {
   position: absolute;
   right: 20px;
-  top: 112px;
+  top: 122px;
 
   transform: rotate(-6deg);
 
@@ -1783,7 +1783,7 @@ p {
   border-radius: 7px;
   background: #eb309e;
 
-  max-width: 120px;
+  max-width: 200px;
   width: 100%;
 }
 
