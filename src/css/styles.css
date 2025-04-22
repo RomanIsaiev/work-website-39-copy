@@ -2850,6 +2850,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    align-items: flex-start;
 
     max-width: 1050px;
     margin-left: auto;
@@ -3001,6 +3002,10 @@ p {
 
 /* old-price-container */
 
+.old-price-container {
+  display: none;
+}
+
 .old-price-text {
   color: #fff;
   text-align: center;
@@ -3112,7 +3117,7 @@ p {
   line-height: 120%; /* 19.2px */
   text-transform: uppercase;
 
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
 
